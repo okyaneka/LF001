@@ -1,0 +1,25 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#
+# Motor_DC-RESCUE-line_follower
+#
+DEF Motor_DC-RESCUE-line_follower M 0 0 Y Y 1 F N
+F0 "M" -50 -200 50 H V L CNN
+F1 "Motor_DC-RESCUE-line_follower" -150 200 50 H V L TNN
+F2 "" 40 0 50 V I C CNN
+F3 "" 40 0 50 V I C CNN
+$FPLIST
+ Pin_Headers:Pin_Header_Straight_1x02
+ Connect:bornier2
+ TerminalBlock*2pol
+$ENDFPLIST
+DRAW
+C 0 0 141 0 1 20 N
+P 2 0 1 0 250 0 230 0 N
+P 5 0 1 10 -50 -50 -50 50 0 0 50 50 50 -50 N
+X + 1 -250 0 100 R 50 50 1 1 P
+X - 2 250 0 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+#End Library
